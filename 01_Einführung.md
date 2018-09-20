@@ -46,3 +46,62 @@ Eine juristische Argumentation sieht immer so aus, dass man eine Behauptung aufs
 - erlassendem Gemeinwesen (Bundesrecht, kantonales- und Gemeinderecht)
 - Rechtsquelle (geschriebenes Recht, Gewohnheitsrecht, Gerichtspraxis, ZGB)
 - Beteiligten Personen (Privatrecht, öffentliches Recht)
+
+## Hierarchie des Rechts
+
+    ----------------
+    | Verfassung   |
+    ----------------
+           |
+    ----------------
+    | Gesetze      |
+    ----------------
+           |
+    ----------------
+    | Verordnungen |
+    ----------------
+
+Verordnungen __sind keine__ Verfügungen.  
+Beispiele für Verfügungen: Eine Hochschule besitzt die Verfügung, Personen als Ingenieur auszuzeichnen.
+
+### Bund/Kantone/Gemeinden
+
+Kantone stehen in der Gesetzgebungsmacht über dem Bund! Kantone aber über den Gemeinden
+
+## Privat- vs. öffentliches Recht
+
+- __PRIVATRECHT__: Zwischen natürlichen bzw. juristischen Personen.  
+Geprägt vom Grundsatz der __Koalitions- und Vertragsfreiheit__.
+- __ÖFFENTLICHES RECHT__: Zwischen Staat und natürlichen/juristischen Personen.  
+Legalitätsprinzip (Gewaltenkontrolle): Der Staat darf nur handeln, wenn eine gesetzliche Grundlage besteht!
+
+## Anwendbarkeit von ausländischem Recht
+- Nebst Völkerrecht, (bi-/multilateralen) internationalen Verträgen ist das IPRG (Gesetz über das internationale Privatrecht) „Hauptschnittstelle“ zwischen CH- und ausländischem Recht 
+- IPRG regelt, wann welches Recht (CH oder Ausland) anwendbar ist und welche Richter zuständig sein sollen.
+
+## Instanzenzug
+Zivil-, Verwaltungs- und Strafgerichte haben unter-
+schiedliche Verfahren. In allen Rechtsbereichen gibt es jedoch drei Instanzen:  
+__Bezirksgericht__ - __Kantonsgericht__ - __Bundesgericht__
+
+## Essentials in einem Zivilprozess
+
+- Prozesse müssen vor dem örtlich/sachlich __zuständigen__ Gericht ausgetragen werden.
+- Ein __Gerichtskostenvorschuss__ ist nötig, um ein Zivilverfahren einzuleiten. Der Vorschuss ist abhängig vom Streitwert.
+- Das Gericht sucht keine Beweise. Der __behauptete Anspruch muss bewiesen werden können__.
+- Wer verliert, muss die __Gerichtskosten sowie Parteikosten der andern Seite übernehmen__.
+- Wer einen Forderungsprozess gewinn, hat das Geld __noch nicht__...
+
+## Essentials in einem Strafverfahren
+- Geregelt im StGB & StPO.
+- Für Antragsdelikte (bspw. Diebstahl, Ehrverletzung) gilt eine Frist von __3 Monaten__!
+- Staatsanwaldschaft leitet Untersuchung und muss __belastende & entlastende__ Aspekte sammeln.
+- Die Einsicht als Beteiligter ist Begrenzt. Durch das Einreichen einer _Privatstrafklageverfahren_ bekommt man als Opfer erweitertes Einsichtsrecht.
+- Der Staatsanwaldschaft stellt das Verfahren ein, straft mit max. 6 Monaten Freiheitsstrafen und/oder 180 Tagessätze oder überweist den Fall zur Beurteilung an das Strafgericht.
+- Als Verurteilter kann das Urteil auch an das Strafgericht weitergezogen werden.
+
+## Essential im Verwaltungsverfahren
+- __Verfügungen__ müssen immer durch die __richtige Behörde__ im __richtigen Verfahren__ und unter __Angabe der Rechtsmittels__ dagegen erlassen werden. Fehlt eine dieser Voraussetzungen, ist die Verfügung nichtig!
+- Wenn neue Tatsachen auftauchen, ist es möglich eine Wiedererwägung/Einsprache gegen die Verfügung zu erheben.
+-Gegen Verfügungen kann i.d.R. Beschwerde innert 10/20/30 Tagen geführt werden. 
+- Je nach Gesetzesgrundlage ist ein kantonales Obergericht oder das Bundesgericht höchste Instanz.
