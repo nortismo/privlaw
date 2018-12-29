@@ -1,0 +1,44 @@
+\documentclass[a4paper, 12pt, fleqn]{article}
+\usepackage{custom}
+\usepackage{titlepage}
+\usepackage[bottom]{footmisc}
+\usepackage{wrapfig}
+
+%============STYLE PROPERTIES============
+\setlength{\parindent}{0pt}
+
+\graphicspath{{../}}
+
+%============PAGE PROPERTIES=============
+\newcommand{\revisiondate}{\today}
+\newcommand{\documenttitle}{CM\_PrivLaw} % used for title in title and subtitle pages
+\newcommand{\authors}{Diego Bienz \& Michael Blättler} %used for title page only
+\newcommand{\subtitle}{Zusammenfassung} % used for title and subtitle pages
+\newcommand{\documentdesc}{Zusammenfassung}
+\newcommand{\ort}{Hochschule Luzern Technik \& Architektur, Horw}
+
+%============REF-COMMANDS================
+\newcommand{\secref}[1]{\hyperref[{#1}]{\autoref*{#1}}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+	\begin{titlepage}
+		\appendixGM
+		\thispagestyle{empty}
+	\end{titlepage}
+
+	\tableofcontents
+
+	\include{01_Einfuehrung}
+    \include{02_Urheberrecht}
+    \include{03_PrivacyDatenschutz}
+    \include{04_DSGVO_DigiTrans}
+    \include{05_InternetArbeitsplatz}
+    \include{06_Strafaspekte}
+    \include{07_GrundzuegeVertraege}
+    \include{08_GrundzuegeMarkenrecht}
+    \include{09_DesignPatentrecht}
+    \include{10_Haftpflichrecht}
+    \include{12_OpenData}
+    \include{13_Haftpflichtrechtes2}
+\end{document}

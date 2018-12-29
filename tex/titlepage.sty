@@ -1,0 +1,87 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{titlepage}[2013/01/13 Page Title Package with footer and header]
+
+
+%========================================
+%============CHANGEABLE PROPERTIES=======
+%========================================
+
+
+%==========TITLE=========================
+\newcommand*{\titleGM}{\begingroup % Create the command for including the title page in the document
+\hbox{ % Horizontal box
+\hspace*{0.05\textwidth} % Whitespace to the left of the title page
+\rule{1pt}{\textheight} % Vertical line
+\hspace*{0.05\textwidth} % Whitespace between the vertical line and title page text
+\parbox[b]{0.85\textwidth}{ % Paragraph box which restricts text to less than the width of the page
+
+{\noindent\huge\bfseries \documenttitle: \subtitle}\\[2\baselineskip] % Title
+{\Large \textit{\documentdesc}}\\[2\baselineskip] % Tagline or further description
+{\Large \textsc{\authors}}\\
+{\textsc{Studiengang: \fieldofstudy}}\\[2\baselineskip]
+\titleimg
+\vspace{.025\textheight} % Whitespace between the title block and the publisher
+
+
+{ \textsc{Klassifikation: \classification}}\\[\baselineskip]
+{{\textit{Dozent: \dozent}}\\
+{ \textit{Experte: \expert}}}\\[1\baselineskip]
+{ \textsc{Industriepartner:}\\
+  \textit{\industrypartner}}\\[2\baselineskip]
+
+
+{\noindent \revisiondate, \ort}\\
+}}
+\endgroup}
+%========================================
+
+%============SUBTITLE?======================
+\newcommand*{\subtitleGM}[1]{
+\begingroup
+\hbox{
+\hspace*{0.25\textwidth}
+\parbox[b]{0.75\textwidth}{
+	\vspace*{0.4\textheight}
+	{\noindent\huge\bfseries #1}\\[\baselineskip]
+	{\large \textit{\documenttitle - \authors}}\\
+	\noindent\rule{9cm}{0.4pt}\\[2\baselineskip]
+}
+}\endgroup}
+%========================================
+\newcommand{\subtitlepage}[1]{\begingroup
+	\clearpage
+	\thispagestyle{empty}
+	\subtitleGM{#1}
+	\clearpage
+	\thispagestyle{fancy}
+\endgroup}
+%========================================
+
+%==========APPENDIX======================
+\newcommand*{\appendixGM}{\begingroup % Create the command for including the title page in the document
+\hbox{ % Horizontal box
+\hspace*{0.1\textwidth} % Whitespace to the left of the title page
+\rule{1pt}{\textheight} % Vertical line
+\hspace*{0.05\textwidth} % Whitespace between the vertical line and title page text
+\parbox[b]{0.8\textwidth}{ % Paragraph box which restricts text to less than the width of the page
+
+{\noindent\huge\bfseries \mbox{\documenttitle: \subtitle}} \\[4\baselineskip] % Title
+{\Large \textit{\documentdesc}}\\[20\baselineskip] % Tagline or further description
+{\Large \textsc{\authors}}\\[2\baselineskip]
+
+
+{\noindent \revisiondate, \ort}\\
+}}
+\endgroup}
+%========================================
+
+%==========HEADER & FOOTER===============
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\documenttitle: \subtitle}
+\rhead{\revisiondate}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{\authors}
+%========================================
+\endinput
