@@ -3,6 +3,7 @@
 \usepackage{titlepage}
 \usepackage[bottom]{footmisc}
 \usepackage{wrapfig}
+\usepackage{makeidx}
 
 %============STYLE PROPERTIES============
 \setlength{\parindent}{0pt}
@@ -20,6 +21,8 @@
 %============REF-COMMANDS================
 \newcommand{\secref}[1]{\hyperref[{#1}]{\autoref*{#1}}}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\makeindex
 
 \begin{document}
 	\begin{titlepage}
@@ -41,4 +44,10 @@
     \include{10_Haftpflichrecht}
     \include{12_OpenData}
     \include{13_Haftpflichtrechtes2}
+    \include{99_Appendix}
+    
+    % Stichwortverzeichnis soll im Inhaltsverzeichnis auftauchen
+    \addcontentsline{toc}{section}{Stichwortverzeichnis}
+    
+    \printindex
 \end{document}
